@@ -6,7 +6,7 @@ metadata:
   name: tailscale
 subjects:
 - kind: ServiceAccount
-  name: "{{SA_NAME}}"
+  name: "tailscale"
 roleRef:
   kind: Role
   name: tailscale
